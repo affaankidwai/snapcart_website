@@ -37,10 +37,10 @@ const Search = () => {
 
   return (
     <div className="w-[100%]">
-      <div className="flex items-center h-10 bg-amazonclone-yellow rounded">
+      <div className="flex items-center h-10 bg-cyan-400 rounded">
         <select
           onChange={(e) => setCategory(e.target.value)}
-          className="p-2 bg-gray-300 text-black border text-xs xl:text-sm"
+          className="p-2 bg-gray-100 text-black border text-xs xl:text-sm"
         >
           <option>All</option>
           <option>Deals</option>

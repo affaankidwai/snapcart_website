@@ -71,7 +71,7 @@ const HomePage = () => {
           </div>
         </div> */}
         <CarouselProduct />
-        <CarouselCategory />
+        {/* <CarouselCategory /> */}
         {/* <div className="h-[200px]">
           <img
             className="h-[100%] m-auto"

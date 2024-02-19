@@ -31,20 +31,20 @@ const NavBar = () => {
           <div className="pr-4 pl-4">
             <div className="text-xs xl:text-sm">Hello, Affaan Kidwai</div>
             <div className="text-sm xl:text-base font-bold">
-              Accounts & Lists
+              Accounts & Settings
             </div>
           </div>
           <Link to={"./ObjectDetection"}>
             <div className="pr-4 pl-4">
               <div className="text-sm xl:text-base font-bold">Scan</div>
-              <div className="text-sm xl:text-base font-bold">the object</div>
+              <div className="text-sm xl:text-base font-bold">the Product</div>
             </div>
           </Link>
           <Link to={"/checkout"}>
             <div className="flex pr-3 pl-3">
               <ShoppingCartIcon className="h-[48px]" />
               <div className="relative">
-                <div className="absolute right-[9px] font-bold m-2 text-orange-400">
+                <div className="absolute right-[9px] font-bold m-2 text-cyan-400">
                   {cart}
                 </div>
               </div>
